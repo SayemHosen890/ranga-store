@@ -19,8 +19,8 @@ const showProducts = (products) => {
       </div>
       <h3>${product.title.slice(0, 60)}</h3>
       <p>Category: ${product.category}</p>
-      <p>Ratting: ${ratting}</p>
-      <p>Count: ${reviewed}</p>
+      <p>Average Rating: ${ratting}</p>
+      <p>Reviews: ${reviewed}</p>
       <h2>Price: <span>$ ${product.price}</span></h2>
       <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-success">add to cart</button>
       <button id="details-btn" class="btn btn-info text-white">Details</button></div>
